@@ -1,0 +1,65 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, keystore paths, etc)
+local.properties
+
+# Signing files
+*.keystore
+*.jks
+
+# IntelliJ / Android Studio files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Kotlin specific
+*.kotlin_metadata
+*.kotlin_module
+
+# Log files
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Crashlytics / Firebase
+crashlytics-build.properties
+fabric.properties
+app/google-services.json
+
+# APKs / Bundles
+*.apk
+*.ap_
+*.aab
+
+# Gradle caches
+.gradle/
+**/out/
+
+# Generated files
+captures/
+outputs/
+generated/
+intermediates/
+
+# NDK
+obj/
+
+# Local test configs
+.idea/sonarlint/
